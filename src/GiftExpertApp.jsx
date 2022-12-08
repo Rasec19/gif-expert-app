@@ -5,7 +5,7 @@ export const GiftExpertApp = () => {
   const [ categories, setCategories ] = useState([ 'One Punch', 'Dragon Ball' ])
 
   const onAddCategory = () => {
-    setCategories( 'a' );
+    setCategories( [ 'Nueva Categoria', ...categories ] );
   };
   
   return (
