@@ -14,4 +14,4 @@ describe('Pruebas en getGifs()', () => {
 
      })
 
- });
+});
